@@ -5,5 +5,5 @@ Install the files
 
 # Usage
 
+cd into the directory that has the files `cd /Your/Directory/`
 To run: `sudo multitool`
-
