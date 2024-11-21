@@ -1,1 +1,5 @@
-test credits
+Setoolkit - https://github.com/trustedsec/social-engineer-toolkit
+Metasploit - https://github.com/rapid7/metasploit-framework
+Wireshark - https://github.com/wireshark/wireshark
+Sqlmap - https://github.com/sqlmapproject/sqlmap 
+Bettercap - https://github.com/bettercap/bettercap
