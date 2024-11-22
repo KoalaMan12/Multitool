@@ -1,5 +1,5 @@
 import os
-
+from colorama import Fore
 def check_and_install(package_name, command):
     """Checks if a package is installed. If not, installs it."""
     print(f"Checking for {package_name}...")
@@ -16,16 +16,15 @@ def check_and_install(package_name, command):
 os.system('clear')
 
 # Print menu
-print("""
+print(Fore.GREEN +"""
 
 #     #                                                  
 ##   ## #    # #      ##### # #####  ####   ####  #      
 # # # # #    # #        #   #   #   #    # #    # #      
 #  #  # #    # #        #   #   #   #    # #    # #      
 #     # #    # #        #   #   #   #    # #    # #      
-#     # #    # #        #   #   #   #    # #    # #      
-#     #  ####  ######   #   #   #    ####   ####  ######
-
+#     # #    # #        #   #   #   #    # #    # #     
+#     #  ####  ######   #   #   #    ####   ####  ######	
 """)
 print("Choose one of the options:")
 print("Setoolkit: 1")
